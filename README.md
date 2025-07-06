@@ -25,6 +25,7 @@ A fun and interactive React application that lets you unleash your creativity by
 
 <!-- Add your screenshots here -->
 - **Initial App Load**
+- ![alt text](<Annotation 2025-07-06 125956.jpg>)
 - **Meme with Custom Text**
 - ![alt text](<Annotation 2025-07-06 124321-1.jpg>)
 
@@ -37,8 +38,8 @@ A fun and interactive React application that lets you unleash your creativity by
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/meme-generator-app.git
-cd meme-generator-app
+git clone https://github.com/<your-username>/meme-generator.git
+cd meme-generator
 npm install
 npm run dev
 
