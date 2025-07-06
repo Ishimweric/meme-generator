@@ -1,12 +1,46 @@
-# React + Vite
+# 🐸 Meme Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive React application that lets you unleash your creativity by generating custom memes! Choose from popular templates, add your own witty text, and see your masterpiece come to life.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎲 **Random Meme Templates**: Fetched from the [Imgflip API](https://api.imgflip.com/get_memes).
+- ✍️ **Custom Text**: Add your own top and bottom captions.
+- ⚡ **Real-Time Preview**: Live meme rendering as you type.
+- 🔁 **Dynamic Meme Switching**: Get a new meme at the click of a button.
+- 🎨 **Modern UI**: Styled with Tailwind CSS.
+- 🚀 **Fast Dev**: Powered by Vite for lightning-fast reloads.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – UI library
+- **Vite** – Frontend build tool
+- **Tailwind CSS** – Utility-first CSS framework
+- **Imgflip API** – External meme templates
+- **Hooks Used**:
+  - `useState` for state management
+  - `useEffect` for data fetching
+
+## 🖼️ Screenshots
+
+<!-- Add your screenshots here -->
+- **Initial App Load**
+- **Meme with Custom Text**
+- ![alt text](<Annotation 2025-07-06 124321-1.jpg>)
+
+## ⚙️ Setup & Local Development
+
+### Prerequisites
+- Node.js (LTS recommended) → [Download Node.js](https://nodejs.org)
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+git clone https://github.com/<your-username>/meme-generator-app.git
+cd meme-generator-app
+npm install
+npm run dev
+
+## Deployment
+npm run build
