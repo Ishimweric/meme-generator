@@ -47,7 +47,7 @@ function Mainpage(){
     <main className="px-5 py-2 w-full flex flex-col items-center gap-3">
       <section className="w-2/3 flex flex-col gap-2">
         <div className="flex flex-col gap-2">
-          <article className="flex gap-4 w-full">
+          <article className="flex md:flex-row flex-col gap-4 w-full">
             <div className="flex flex-col flex-1">
               <label htmlFor="first" className="text-xl font-bold text-gray-500">Top Text</label>
               <input type="text" id="first" name="topText" placeholder="Shut up" className="flex-1 p-2 outline-none rounded-lg box-border border-2 border-gray-300 border-solid text-xl" value={meme.topText} onChange={getInput}/>
